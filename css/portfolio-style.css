@@ -1,0 +1,107 @@
+body {
+  background: url("../images/stars-background.jpg");
+  font-family: 'Kalam';
+}
+
+button {
+  display: block;
+  background: red;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.clear {
+  clear:both;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: white;
+}
+
+/* Card General Styling */
+
+.card {
+  font-family: 'Ceviche One', cursive;
+  background: black;
+  max-width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  float: left;
+  margin: 10%;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2,
+.container p {
+  padding: 1%;
+  color: white;
+}
+
+.card a {
+  display: inline-block;
+  padding: 1%;
+  margin-bottom: 10px;
+  color: rgb(0, 247, 255)
+}
+
+.card img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+a:hover {
+  color:black;
+  background-color: rgb(0, 247, 255);
+}
+
+/* my card styling */
+
+.my-card {
+  box-shadow: 5px 5px 50px rgb(255, 255, 255), -5px -5px 50px rgb(255, 255, 255);
+}
+
+.my-card .container {
+  color: white;
+}
+
+.my-card:hover {
+  box-shadow: 5px 5px 50px 5px rgb(255, 255, 255), -5px -5px 50px 5px rgb(255, 255, 255);
+}
+
+/* psycho-pass card styling */
+
+.psy-card {
+  box-shadow: 5px 5px 50px rgb(73, 255, 1), -5px -5px 50px rgb(73, 255, 1);
+}
+
+.psy-card .container {
+  color: white;
+}
+
+.psy-card:hover {
+  box-shadow: 5px 5px 50px 5px rgb(73, 255, 1), -5px -5px 50px 5px rgb(73, 255, 1);
+}
+
+/* imagine dragons card styling */
+
+.id-card {
+  box-shadow: 5px 5px 50px rgb(251 174 255), -5px -5px 50px rgb(251 174 255);
+}
+
+.id-card .container {
+  color: red;
+}
+
+.id-card:hover {
+  box-shadow: 5px 5px 50px 5px rgb(251 174 255), -5px -5px 50px 5px rgb(251 174 255);
+}

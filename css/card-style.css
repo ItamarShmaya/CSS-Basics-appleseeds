@@ -1,0 +1,31 @@
+.card {
+  font-family: 'Ceviche One', cursive;
+  background: black;
+  max-width: 200px;
+  box-shadow: 5px 5px 50px rgb(73, 255, 1), -5px -5px 50px rgb(73, 255, 1);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  display: inline-block;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 50px 5px rgb(73, 255, 1), -5px -5px 50px 5px rgb(73, 255, 1);
+}

@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+                                    /* border-box for every element */
+*, *::after, *::before {
+  box-sizing: inherit;               
+}
+
+.container {
+  max-width: 60%;
+  margin: 10px auto;   
+}
+
+.header {
+  background: orange;
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  height: calc(10vh - 10px);   /* 10% of viewport height - 10px margin top */
+   
+}
+
+.main {
+  background: green;
+  border: 1px solid black;
+  text-align: right;
+  float: right;
+  width: 69.5%;
+  height: calc(80vh - 10px);  /* 80% of viewport height - 10px margin */
+  margin: 5px 0;
+}
+
+.side {
+  background: purple;
+  border: 1px solid black;
+  text-align: left;
+  float: left;
+  width: 30%;
+  height: calc(80vh - 10px);  /* 80% of viewport height - 10px margin */
+  margin: 5px 0;
+}
+
+.footer {
+  background: blue;;
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  height: calc(10vh - 10px);  /* 10% of viewport height - 10px margin bottom */
+}
+
+span {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.clear {
+  clear: both;
+}
