@@ -1,0 +1,62 @@
+body {
+  height: 4000px;
+  background-color: aqua;
+}
+nav {
+  background-color: rgb(31, 31, 179);
+  position: sticky;
+  top: 0px;
+}
+nav ul {
+  list-style: none;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  background-color: rgb(1, 1, 143);
+}
+
+button {
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  border:3px solid rgba(255,255,255,0);
+}
+
+button:hover{
+  border-color: rgba(255,255,255,1);
+}
+
+#btn1 {
+  background-color: #f14e4e;
+}
+#btn2 {
+  background-color: #f1bb4e;
+}
+#btn3 {
+  background-color: #84f14e;
+}
+#btn4 {
+  background-color: #4ef18f;
+}
+#btn5 {
+  background-color: #4e9af1;
+}
+#btn6 {
+  background-color: #9a4ef1;
+}
+#btn7 {
+  background-color: #f14ebd;
+}
