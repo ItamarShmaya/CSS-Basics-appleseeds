@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Palette Mosaic', cursive;
+
+}
+
+/* Showcase */
+
+header {
+  background: url("../img/sunset-hammock.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+header .logo {
+  margin-bottom: 40px;
+}
+
+.heading-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.primary-heading {
+  font-size: 60px;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.primary-para {
+  font-size: 22px;
+  width: 40%;
+}
+
+/* Form */
+
+.form-wrap {
+  width: 350px;
+  height: 500px;
+  color: #fff;
+  background: url("../img/sea-coast.jpg") no-repeat center center/cover;
+  padding: 20px;
+}
+
+.form-wrap h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.form-wrap .input-wrap {
+  margin: 55px auto;
+}
+
+form .btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 5px;
+  color: #fff;
+  background: rgb(255, 196, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: bisque;
+}
+
+.cta-container {
+  width: 100%;
+  display: flex;
+}
+
+.cta-container .benefits {
+  flex: 2;
+}
+
+.cta-container .benefits .benefit:first-child h3 {
+  margin-top: 100px;
+}
+.cta-container .benefits .benefit h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.cta-container .benefits .benefit p {
+  text-align: center;
+}
+
+.cta-container .benefits .benefit i {
+  margin: 0 20px;
+}
+
+.form-container {
+  flex: 1;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: antiquewhite;
+  
+}
+
+#testimonials h2 {
+  text-align: center;
+  line-height: 1.6;
+  padding: 30px 0;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-container .testimonial-1 {
+  padding: 20px;
+  flex: 1;
+}
+
+.testimonial-container .testimonial-2 {
+  padding: 20px;
+  flex: 1;
+}
+
+.testimonial-container img {
+  width: 200px;
+  float: left;
+  border-radius: 50%;
+}
+
+.testimonial-container p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background: #333;
+  color: #fff;
+  align-items: center;
+}
+
+footer h2 {
+  margin-left: 20px;
+}
+
+footer p {
+  margin-right: 20px;
+  font-size: .8rem;
+  letter-spacing: 1.5px;
+}

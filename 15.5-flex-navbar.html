@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Navbar</title>
+
+  <style>
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background: #f4f4f4;
+    border: 1px solid rgb(75, 75, 75);
+    text-transform: uppercase;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav h1 {
+    color: blue;
+    padding: 0 1.5rem;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    display: block;
+  }
+
+  nav ul li a:hover {
+    color: #fff;
+    background-color: rgb(0, 0, 184);
+    
+  }
+
+  @media (max-width: 600px) {
+    nav, 
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav h1,
+    nav ul li a {
+      padding: 1.2rem 0;
+      
+    }
+  }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Appleseed</h1>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+</body>
+</html>

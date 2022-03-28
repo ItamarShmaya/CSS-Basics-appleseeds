@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/floats-style.css">
+  <title>Floats</title>
+</head>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+.container {
+  max-width: 60%;
+  margin: 10px auto;  
+}
+
+.header {
+  background: orange;
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  height: calc(10vh - 10px);
+   
+}
+
+.main {
+  background: green;
+  border: 1px solid black;
+  text-align: right;
+  float: right;
+  width: 69.5%;
+  height: calc(80vh - 10px);
+  margin: 5px 0;
+}
+
+.side {
+  background: purple;
+  border: 1px solid black;
+  text-align: left;
+  float: left;
+  width: 30%;
+  height: calc(80vh - 10px);
+  margin: 5px 0;
+}
+
+.footer {
+  background: blue;;
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  height: calc(10vh - 10px); 
+}
+
+span {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .side {
+    display: none;
+  }
+  .main {
+    width: 100%;
+  }
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="header">
+      <span>Header</span>
+    </div>
+    <div class="main">
+      <span>Main</span>
+    </div>
+    <div class="side">
+      <span>Side</span>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="footer">
+      <span>Footer</span>
+    </div>
+  </div>
+</body>
+</html>
