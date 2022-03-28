@@ -1,0 +1,41 @@
+/* Showcase */
+header {
+  width: 100%;
+}
+
+.heading-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.primary-heading {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.primary-para {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* CTA Section */
+
+.cta-container {
+  display: block;
+}
+
+.form-wrap {
+  margin: auto;
+  width: 100%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  width: 100%;
+}
+.testimonial-container {
+  display: block;
+}

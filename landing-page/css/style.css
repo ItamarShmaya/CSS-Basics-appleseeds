@@ -23,26 +23,29 @@ header {
 }
 
 header .logo {
-  margin-bottom: 40px;
+  padding: 40px;
+
 }
 
 .heading-container {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 80px;
+  padding: 50px;
+  margin: auto;
+  width: 80%;
 }
 
 .primary-heading {
+  width: 80%;
   font-size: 60px;
-  width: 50%;
+  font-size: 4vw;
   padding-bottom: 50px;
+  color: #00fff8;
 }
 
 .primary-para {
-  font-size: 22px;
+  font-size: 20px;
+  font-size: 1.3vw;
   width: 40%;
+  color: #fff;
 }
 
 /* Form */
@@ -102,14 +105,8 @@ form .btn {
   flex: 2;
 }
 
-.cta-container .benefits .benefit:first-child h3 {
-  margin-top: 100px;
-}
-.cta-container .benefits .benefit h3 {
-  text-align: center;
-  margin-top: 50px;
-}
-.cta-container .benefits .benefit p {
+.cta-container .benefits .benefit {
+  padding: 50px;
   text-align: center;
 }
 
