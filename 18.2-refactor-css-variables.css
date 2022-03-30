@@ -1,5 +1,5 @@
 :root {
-  --id-card-color: rgb(251 174 255);
+  --id-card-color: rgb(251 174 255);      /* CSS Variables */
   --ps-card-color: rgb(73, 255, 1);
 }
 
@@ -86,7 +86,7 @@ a:hover {
 /* psycho-pass card styling */
 
 .psy-card {
-  box-shadow: 5px 5px 50px rgb(73, 255, 1), -5px -5px 50px rgb(73, 255, 1);
+  box-shadow: 5px 5px 50px var(--ps-card-color), -5px -5px 50px var(--ps-card-color);
 }
 
 .psy-card .container {
@@ -94,13 +94,13 @@ a:hover {
 }
 
 .psy-card:hover {
-  box-shadow: 5px 5px 50px 5px rgb(73, 255, 1), -5px -5px 50px 5px rgb(73, 255, 1);
+  box-shadow: 5px 5px 50px 5px var(--ps-card-color), -5px -5px 50px 5px var(--ps-card-color);
 }
 
 /* imagine dragons card styling */
 
 .id-card {
-  box-shadow: 5px 5px 50px rgb(251 174 255), -5px -5px 50px rgb(251 174 255);
+  box-shadow: 5px 5px 50px var(--id-card-color), -5px -5px 50px var(--id-card-color);
 }
 
 .id-card .container {
@@ -108,5 +108,5 @@ a:hover {
 }
 
 .id-card:hover {
-  box-shadow: 5px 5px 50px 5px rgb(251 174 255), -5px -5px 50px 5px rgb(251 174 255);
+  box-shadow: 5px 5px 50px 5px var(--id-card-color), -5px -5px 50px 5px var(--id-card-color);
 }
